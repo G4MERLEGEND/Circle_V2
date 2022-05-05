@@ -20,7 +20,7 @@ namespace Circle_V2
             D = d;
             R = d / 2;
             Circumference = 2 * Math.PI * R;
-            NewCircumference = CalculateCircumference(PI_NEW * CalculateDiameter());     
+            NewCircumference = Math.Sqrt(Math.Sqrt(PI_NEW * Math.Pow((D * D), 2)));//CalculateCircumference(PI_NEW * CalculateDiameter());     
         }
 
         public double CalculateDiameter()
